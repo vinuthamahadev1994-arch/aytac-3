@@ -7368,6 +7368,42 @@ Small phone fixes
     border-top: 1px solid rgba(0, 0, 0, 0.06) !important;
     margin-top: 6px !important;
   }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .navbar .nav-item .nav-link {
+    display: block !important;
+    width: 100% !important;
+    padding: 10px 4px !important;
+    margin-right: 0 !important;
+    color: var(--color-dark) !important;
+  }
+
+  .navbar .dropdown-menu {
+    border: none !important;
+    background: #f8f9fc !important;
+    padding: 6px 10px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .navbar .dropdown-menu .dropdown-item {
+    white-space: normal !important;
+    padding: 8px 10px !important;
+    font-size: 14.5px !important;
+    font-weight: 600 !important;
+    color: var(--color-dark) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+
+  .navbar .dropdown-menu li:last-child .dropdown-item {
+    border-bottom: none;
+  }
 }
 
 @media all and (max-width: 575px) {
